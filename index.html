@@ -51,15 +51,20 @@
                                         <span class="d-flex justify-content-between align-items-center">
                                             <i class="fa-solid fa-wallet fa-2xl"></i>
                                             <div class="dropdown">
-                                                <i class="fa-solid fa-ellipsis-vertical"  type="button" data-bs-toggle="dropdown" aria-expanded="false"></i> 
+                                                <i class="fa-solid fa-ellipsis-vertical" type="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false"></i>
                                                 <ul class="dropdown-menu">
-                                                  <li><a class="dropdown-item" href="#"><i  style="padding-right:3px" class="fa-solid fa-comment-dollar fa-sm"></i >Make payment</a></li>
-                                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    <li><a class="dropdown-item" href="#"><i style="padding-right:3px"
+                                                                class="fa-solid fa-comment-dollar fa-sm"></i>Make
+                                                            payment</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                                 </ul>
-                                              </div></span>
+                                            </div>
+                                        </span>
                                     </span>
-                                    <h2 class="card-title">$143.624</h4>
+                                    <h2 id="balance" class="card-title">
+                                        </h4>
                                         <p class="card-text">Your Bank Balance</p>
                                 </div>
                             </div>
@@ -110,8 +115,8 @@
                                 <div class="card border-0 shadow rounded-4">
                                     <div class="card-body">
                                         <p class="card-text">New clients</p>
-                                        <h1 class="card-title">54 </h1>
-                                        <span class="badge text-bg-success">+18%</span>
+                                        <h1 id="client-count" class="card-title"> </h1>
+                                        <span id="client-percentage" class="badge text-bg-success"></span>
                                     </div>
                                 </div>
                             </div>
@@ -119,8 +124,8 @@
                                 <div class="card border-0 shadow rounded-4">
                                     <div class="card-body">
                                         <p class="card-text">Invoices overdue</p>
-                                        <h1 class="card-title">6</h1>
-                                        <span class="badge text-bg-danger">Success</span>
+                                        <h1 id="invoice-count" class="card-title">6</h1>
+                                        <span id="invoice-percentage" class="badge text-bg-danger">Success</span>
                                     </div>
                                 </div>
                             </div>
@@ -129,42 +134,17 @@
                             <div class="card border-0 shadow rounded-4 h-100">
                                 <div class="card-body">
                                     <h6 class="card-title">6</h6>
-                                    <canvas id="myChart" ></canvas>
+                                    <canvas id="myChart"></canvas>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row m-2">
-                    <div class="col m-2">
+                    <div id="emails" class="col m-2">
                         <div class="row my-2">
                             <h4>Recent emails</h4>
                         </div>
-                        <div class="row my-2">
-                            <div class="card border-0 shadow rounded-4 h-100">
-                                <div class="card-body d-flex justify-content-between text-secondary text-sm">
-                                    <img style="height: 25px; width:25px;" class="rounded" src="https://randomuser.me/api/portraits/lego/5.jpg" alt="">
-                                    <p>Hannah Morgan</p>
-                                    <p>Meeting scehuled</p>
-                                    <p>1.54 pm</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row my-2">
-                            <div class="card border-0 shadow rounded-4 h-100">
-                                <div class="card-body">
-                                    <h6 class="card-title">6</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row my-2">
-                            <div class="card border-0 shadow rounded-4 h-100">
-                                <div class="card-body">
-                                    <h6 class="card-title">6</h6>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>
